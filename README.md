@@ -1,2 +1,2 @@
 # TW-Documentation
-Documentation of concepts learned in Technical Writing
+Documentation of concepts learnt in Technical Writing
