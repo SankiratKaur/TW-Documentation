@@ -59,27 +59,7 @@ Important commands:
 - `\param` – Description of a parameter.
 - `\return` – Description of the return value.
 
-## 5. Doxygen for Python
-
-Doxygen also supports Python documentation using docstrings.
-
-**Example:**
-
-```python
-def foo(bar):
-    """
-    Brief description.
-    More details here.
-
-    :param bar: Bar parameter
-    :type bar: int
-    :return: Computed value
-    :rtype: int
-    """
-    return bar + 1
-```
-
-## 6. Common Doxygen Tags
+## 5. Common Doxygen Tags
 
 | Tag | Purpose |
 |---|---|
@@ -91,7 +71,7 @@ def foo(bar):
 | `\see` | Reference to related items |
 | `\note` | Additional information |
 
-## 7. Documenting Classes
+## 6. Documenting Classes
 
 Doxygen can document classes and their member functions.
 
@@ -114,7 +94,7 @@ public:
 };
 ```
 
-## 8. Grouping and Diagrams
+## 7. Grouping and Diagrams
 
 Doxygen provides features to organize code and generate diagrams.
 
@@ -125,7 +105,7 @@ Doxygen provides features to organize code and generate diagrams.
 - Embedding diagrams using `@dot` or PlantUML directives.
 - Adding Markdown/HTML tables and images.
 
-## 9. Output Formats
+## 8. Output Formats
 
 Doxygen supports multiple output formats:
 
@@ -145,7 +125,7 @@ GENERATE_RTF = NO
 GENERATE_XML = NO
 ```
 
-## 10. Best Practices
+## 9. Best Practices
 
 - Clearly explain the purpose of functions and classes.
 - Keep brief and detailed descriptions separate.
@@ -153,7 +133,7 @@ GENERATE_XML = NO
 - Use consistent tags and formatting.
 - Generate documentation as part of continuous integration.
 
-## 11. Doxygen with Version Control
+## 10. Doxygen with Version Control
 
 - Store the `Doxyfile` in the source-code repository.
 - Update documentation whenever code changes.
