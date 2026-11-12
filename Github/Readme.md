@@ -98,12 +98,5 @@ A fork creates a separate copy of another user's repository under your account. 
 - **Code Review:** Review and improve code.
 - **Releases:** Publish specific project versions.
 
-## 12. Best Practices
-- Write clear commit messages.
-- Use meaningful branch names.
-- Review code before merging.
-- Keep README files updated.
-- Never upload passwords or secret keys.
-
 ## Conclusion
 GitHub makes it easier to host projects, collaborate with developers, and manage software development.
